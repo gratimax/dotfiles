@@ -1,0 +1,4 @@
+# keep private stuff private
+priv/
+
+.DS_Store
