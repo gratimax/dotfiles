@@ -1,6 +1,6 @@
 # First things first, set the color theme so there's no terrible flash
-BASE16_SHELL=$HOME/soft/base16-shell/
-[ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
+# BASE16_SHELL=$HOME/soft/base16-shell/
+# [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
 # Add ~/bin to PATH
 PATH+=':$HOME/bin'
@@ -31,8 +31,8 @@ alias vim=nvim
 # fancy ps1
 # export PS1='$([ $(id -u) -eq 0 ] && echo \[\e[31m\] || echo \[\e[34m\])\u\[\e[0m\]@\[\e[35m\]\h\[\e[0m\]:\[\e[2m\]\w\[\e[0m\]$ '
 # minimal ps1
-export PS1='$([ $(id -u) -eq 0 ] && echo "\[\e[31m\]#\[\e[0m\]")\[\e[34m\]\w\[\e[37;2m\]:\[\e[0m\] '
-export PS2='\[\e[33m\]>\[\e[0m\]'
+# export PS1='$([ $(id -u) -eq 0 ] && echo "\[\e[31m\]#\[\e[0m\]")\[\e[34m\]\w\[\e[37;2m\]:\[\e[0m\] '
+# export PS2='\[\e[33m\]>\[\e[0m\]'
 
 # make ls pretty
 export CLICOLOR=1
