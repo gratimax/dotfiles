@@ -1,9 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 " pretty colors
-Plug 'chriskempson/base16-vim'
-" Plug 'altercation/vim-colors-solarized'
-Plug 'noah/vim256-color'
+Plug 'chriskempson/vim-tomorrow-theme'
 
 " pretty status bar
 Plug 'vim-airline/vim-airline'
@@ -42,7 +40,7 @@ let g:airline_theme = 'tomorrow'
 set nowrap
 
 let g:solarized_termcolors=256
-colorscheme tomorrow-night
+colorscheme Tomorrow-Night
 " colorscheme enhancements
 hi clojureKeyword ctermfg=139
 hi clojureSpecial ctermfg=139
